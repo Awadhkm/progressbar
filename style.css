@@ -1,0 +1,110 @@
+*{
+    margin: 0;padding: 0;
+}
+.container{
+    width:100%;
+    height: 100vh;
+    background: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skills h2{
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: aliceblue;
+}
+.progress-bar{
+    background: #959595;
+   height: 10px; 
+   width: 600px;
+   border-radius: 5px;
+}
+.progress-bar div{
+    height: 10px;
+    border-radius: 5px;
+    width: 0%;
+}
+.progress-bar  div span{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #222;
+    float: right;
+    margin-top: -15px;
+    margin-right: 1px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.html{
+    background: rgb(128, 198, 16);
+    animation: html 1s linear forwards;
+}
+.css{
+    background: rgb(96, 62, 129);
+    animation: css 1s linear forwards;
+}
+.javascript{
+    background: #902159;
+    animation: javascript 1s linear forwards;
+}
+.mern{
+    background: #4b12b5;
+    animation: mern 1s linear forwards;
+}
+.java{
+    background: #1ea34d;
+    animation: java 1s linear forwards;
+}
+
+.html span{
+    border: 1px solid rgb(128, 198, 16);
+}
+.css span{
+    border: 1px solid rgb(96, 62, 129);
+}
+.javascript span{
+    border: 1px solid #902159;
+
+}
+.mern span{
+    border: 1px solid #4b12b5;
+}
+.java span{
+    border: 1px solid #1ea34d;
+}
+
+@keyframes html{
+    100%{
+        width:90%;
+    }
+}
+@keyframes css {
+    100% {
+        width: 90%;
+    }
+}
+@keyframes css {
+    100% {
+        width: 80%;
+    }
+}
+@keyframes javascript {
+    100% {
+        width: 75%;
+    }
+}
+@keyframes mern {
+    100% {
+        width: 60%;
+    }
+}
+@keyframes java {
+    100% {
+        width: 65%;
+    }
+}
